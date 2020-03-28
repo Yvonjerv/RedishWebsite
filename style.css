@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body{
+  overflow-x:  hidden;
+  font-family: 'Poppins', sans-serif;
+  color: #f5a39e;
+   background-color: #ec4438; 
+}
+
+.offset:before{
+ display: block;
+ content: "";
+ height: .4rem;
+}
+
+
+/*--Navigaton --*/
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.0)!important;
+}
+
+.navbar-brand img{
+  height: 2rem;
+}
+
+.navbar-nav li{
+  padding-right:  .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #f5a39e;
+}
+
+/*--Home --*/
+
+.hr{
+  text-align: center;
+}
+
+.middle{
+  
+  text-align: center;
+  
+  color: #ec4438;
+  text-shadow: 2px 2px 7px #111111;
+  padding-top: 10em; 
+}
+.middle img{
+text-align: center;
+}
+h2{
+  text-transform: uppercase;
+  color: #ec4438;
+  text-shadow: 2px 2px 7px #111111;
+}
+
+#box{
+
+padding-right: 100px;
+padding-left: 100px;
+  /*
+  width: 84%;
+  height: 350px;
+  margin: 0px auto;*/
+}
+#profile_box{
+
+  padding: 10px 10px 10px 10px;
+  background-color: #ffffff;
+  box-shadow:  2px 2px 7px #111111;
+}
+
+#pic_box{
+
+text-align: center;
+}
+
+ #profile_pic{
+ 
+  
+  background-color: #ffffff;
+  
+}
+#underbox{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #cccccc;
+   box-shadow:  2px 2px 7px #111111;
+}
+
+
+li{
+  display: inline;
+  margin-right: 50px;
+}
+#profile_text{
+  font-family: 500;
+  font-style: 500%;
+  color: #ec4438;
+}
+p{
+  color: #000000;
+}
+h3{
+  color: #1FAFBB;
+}
+
+
+/*-- projects  --*/
+
+.card{
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0px;
+ /* border-color: rgba(0,0,0,0.0); */
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.card h4{
+  font-size: 170%;
+  text-align:center;
+  color: #ec4438;
+}
+
+.card p{
+  text-align:center;
+
+  color: #1FAFBB;
+}
+.card_content{
+  
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+
+
+/*-- Contact  --*/
+
+#contact-box .social{
+   overflow: hidden;
+  width: 100px;
+  height: 80px;
+ padding-left: 6px;
+ border:1px dashed;
+  }
+
+
+
+#contact-box .social h4{
+  padding-top: 10px;
+  font-size: 99%;
+   color: #f5a39e;
+   text-transform: lowercase;
+
+}
+ 
+#contact-box .social  .svg-inline--fa{
+ margin: 1.2rem .5 0 0;
+  font-size: 2rem;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+
+.social  .svg-inline--fa:hover{
+  color: #cccccc;
+
+}
+#contact-box{
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+
+
+
+
+
+/*-- post slider --*/
+
+.post-slider{
+  border: 1px red;
+  position: relative;
+}
+.post-slider .slider-title{
+  text-align-last: center;
+
+}
+
+.post-slider .next{
+position: absolute;
+top: 50%;
+right: 30px;
+
+font-size: 2em;
+color: #1FAFBB;
+cursor: pointer;
+}
+.post-slider .prev{
+position: absolute;
+top: 50%;
+left:  30px;
+font-size: 2em;
+color: #1FAFBB;
+cursor: pointer;
+}
+
+
+.post-slider .post-wrapper{
+  width: 84%;
+  height: 400px;
+   overflow: hidden;
+  margin: 0px auto;
+  /*border:1px dashed;*/
+}
+
+.post-slider .post-wrapper .post{
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+  margin: 0px 10px 10px;
+  background: #f5a39e;
+  padding: 0px 0px 10px 0px; 
+display: inline-block;
+background: white;
+/*border-radius: 5px;*/
+box-shadow: 1rem 1rem 1rem -1rem #000000;
+}
+
+.post-slider .post-wrapper .post .post-image{
+width: 100%;
+height: 200px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+
+.post-slider .post-wrapper .post .post-info{
+height: 130px;
+/*border: 1px solid green;*/
+padding: 0px 5px;
+}
+.post-slider .post-wrapper .post .post-info h4{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 140%;
+
+}
+h4{
+ color: #1FAFBB;
+  margin: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: #1FAFBB;
+}
+
+.page-wrapper a:hover{
+color: #000000;
+}
+
+
+#contact{
+   display: flex;
+  flex-direction: row;
+}
+
+#copy{
+  text-align: right;
+ 
+}
+
+#copy h4{
+   color: #ffffff;
+   font-size: 99%;
+}
+
+
+
+/*============= all button =============*/
+ 
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  /*padding: .6rem 1.2rem;*/
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  
+  border-color: #ffffff;
+  background-color: #1FAFBB;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #1FAFBB;
+  background-color: #cccccc;
+  color: #1FAFBB;
+}
+
+
+
+
+
+/*===== Media Queries ===*/
+@media(max-width: 767px ){
+
+
+
+  .caption h1{
+  font-size: 2.3rem;
+  letter-spacing: .15rem;
+  padding-bottom: .5rem;
+}
+
+.caption h3{
+  font-size: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.btn-lg{
+  padding: .5rem 1rem;
+  font-size: 1rem;
+}
+
+.middle img{
+   max-width: 70%;
+   max-height: 70%;
+  display: block;
+margin: 0 auto;
+}
+#box{
+  font-size: 90%;
+}
+
+.profile {
+  max-width: 70%;
+  max-height: 70%;
+  display: block;
+margin: 0 auto;
+font-size: 90%;
+}
+
+.post{
+    max-width: 70%;
+  max-height: 70%;
+  display: block;
+margin: 0 auto;
+font-size: 90%;
+}
+#profile_pic{
+    max-width: 70%;
+    max-height: 70%;
+  display: block;
+margin: 0 auto;
+}
+
+
+#underbox li{
+  max-width: 50%;
+  max-height: 50%;
+  display: block;
+margin: 0 auto;
+}
+
+
+.card_content{
+  
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+
+
+

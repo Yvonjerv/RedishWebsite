@@ -1,0 +1,50 @@
+<!--- contact -->
+<div class="offset">
+	</div>
+<div id="contact">
+<div class="col-md-5">
+<div class="container-fluid padding">
+	<div class="row ">
+		<div class="col-md-4">
+			<div class="social">			
+				<div class="card-body">
+					<h4 class="card-title">TWITTER</h4>				
+				</div>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="social">
+				
+				<div class="card-body">
+					<h4 class="card-title">INSTAGRAM</h4>
+				</div>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="social">
+				
+				<div class="card-body">
+					<h4 class="card-title">facebook</h4>
+				</div>
+				<a href="#"><i class="fab fa-facebook"></i></a>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="social">
+				
+				<div class="card-body">
+					<h4 class="card-title">youtube</h4>
+				</div>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+			</div>
+		</div>
+
+	</div>
+</div>
+</div>
+</div>
+
